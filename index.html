@@ -133,7 +133,7 @@
 
       <span class="has-mega" data-mega>
         <a href="#portal" data-i18n="nav.portalS">Portal y Servicios</a>
-        <div class="mega" style="--cols:2;--w:620px">
+        <div class="mega mega-servicios" style="--cols:2;--w:620px">
           <div>
             <h4 data-i18n="portal.title">Portal de Clientes</h4>
             <ul>
@@ -271,7 +271,7 @@
 </section>
 
 <!-- ══════════════ CINTILLO ══════════════ -->
-<div class="ticker" aria-hidden="true">
+<div class="ticker" role="marquee" aria-label="Áreas de práctica">
   <div class="ticker-track" id="tickerTrack"></div>
 </div>
 
@@ -628,7 +628,11 @@
   </div>
 </section>
 
-<!-- ══════════════ MULTIMEDIA / YOUTUBE ══════════════ -->
+<!-- ══════════════ MULTIMEDIA / YOUTUBE ══════════════
+     SECCIÓN DESACTIVADA TEMPORALMENTE (VEXSTON en video).
+     Para reactivar: quitar este comentario HTML y los comentarios de
+     renderVideos/initVideos en js/app.js, y actualizar en js/data.js
+     YT_CHANNEL_ID / YT_CHANNEL_URL a la nueva cuenta de YouTube.
 <section class="band band-ink on-dark" id="videos">
   <div class="shell">
     <div data-reveal style="max-width:60ch">
@@ -643,6 +647,7 @@
     </div>
   </div>
 </section>
+-->
 
 <!-- ══════════════ CENTRO DE CONOCIMIENTO ══════════════ -->
 <section class="band band-warm" id="conocimiento">
@@ -917,30 +922,28 @@
   </div>
 </div>
 
-<!-- ══════════════ MODAL: PORTAL / LOGIN ══════════════ -->
+<!-- ══════════════ MODAL: PORTAL / PRÓXIMAMENTE ══════════════ -->
 <div class="scrim" id="loginModal" data-open="false" role="dialog" aria-modal="true" aria-labelledby="loginTitle">
   <div class="sheet">
     <div class="sheet-head">
       <div>
         <p class="eyebrow" style="margin-bottom:.5rem" data-i18n="portal.title">Portal de Clientes</p>
-        <h3 id="loginTitle" data-i18n="login.title">Acceso privado</h3>
+        <h3 id="loginTitle" data-i18n="soon.title">Próximamente habilitado</h3>
       </div>
       <button class="sheet-close" data-close aria-label="Cerrar">✕</button>
     </div>
-    <p class="login-note" data-i18n="login.note">Este es un adelanto de la experiencia del portal. La autenticación completa (2FA) se activa una vez integrado el backend de la firma.</p>
-    <form id="loginForm" novalidate>
-    <div class="login-field">
-      <label for="lgMail" data-i18n="form.mail">Correo electrónico</label>
-      <input type="email" id="lgMail" autocomplete="username">
+    <div class="soon">
+      <span class="soon-ico" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/><path d="M12 14h.01"/><path d="M16 14h.01"/><path d="M8 14h.01"/></svg>
+      </span>
+      <h4 data-i18n="soon.head">Estamos preparando tu acceso en línea</h4>
+      <p data-i18n="soon.text">El Portal de Clientes de VEXSTON estará disponible próximamente: consulta del estado de tus casos, documentos y pagos en un espacio privado y seguro, con autenticación de doble factor.</p>
+      <p class="soon-note" data-i18n="soon.note">Mientras tanto, nuestro equipo está a tu disposición por WhatsApp, correo o teléfono.</p>
+      <div class="soon-actions">
+        <a href="#contacto" data-close class="btn btn-solid" data-i18n="soon.cta">Contactar al despacho</a>
+        <button type="button" data-close class="btn btn-outline" data-i18n="soon.ok">Entendido</button>
+      </div>
     </div>
-    <div class="login-field">
-      <label for="lgPass" data-i18n="login.pass">Contraseña</label>
-      <input type="password" id="lgPass" autocomplete="current-password">
-    </div>
-    <button type="submit" class="btn btn-solid" id="lgGo" style="width:100%;justify-content:center;margin-top:.6rem" data-i18n="login.go">Continuar con verificación 2FA</button>
-    <div class="calc-out" id="lgOut" data-shown="false" role="status" aria-live="polite"></div>
-    </form>
-    <p class="login-alt"><span data-i18n="login.alt">¿Aún no tienes acceso?</span> <a href="#cita" data-close data-i18n="login.ask">Solicítalo aquí →</a></p>
   </div>
 </div>
 

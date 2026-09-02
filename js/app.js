@@ -30,7 +30,7 @@ function applyLang(lang){
   document.documentElement.lang = lang;
   document.querySelectorAll(".lang").forEach(function(el){ el.setAttribute("data-active", lang); });
   buildAreas(); buildTicker(); buildCourt(); buildMega(); buildAreaSelect();
-  renderVideos(liveVideosCache);
+  // renderVideos(liveVideosCache); — sección de video desactivada temporalmente
   if(viewState && viewState.view) handleRoute();
   if(window.chatGreet && document.getElementById("chatBody").children.length) window.chatGreet();
 }
@@ -54,8 +54,8 @@ function buildAreas(){
 /* ─────────── Cintillo ─────────── */
 function buildTicker(){
   var t = document.getElementById("tickerTrack");
-  var one = AREAS.map(function(a){ return '<span class="ticker-item">'+a[LANG].n+'</span>'; }).join("");
-  t.innerHTML = one + one;
+  var one = AREAS.map(function(a){ return '<a class="ticker-item" href="areas/'+a.id+'.html">'+a[LANG].n+'</a>'; }).join("");
+  t.innerHTML = one + '<span class="ticker-dup" aria-hidden="true">' + one + '</span>';
 }
 
 
@@ -112,7 +112,8 @@ function onScroll(){
   var y = window.scrollY;
   if(y === lastY) return;
   lastY = y;
-  head.setAttribute("data-stuck", y > 40 ? "true" : "false");
+  var inAbogado = viewState.view === "abogados" || (viewState.view === "abogado" && viewState.id);
+  head.setAttribute("data-stuck", inAbogado || y > 40 ? "true" : "false");
 }
 window.addEventListener("scroll", function(){ requestAnimationFrame(onScroll); }, {passive:true});
 onScroll();
@@ -220,7 +221,7 @@ document.addEventListener("keydown", function(e){
 /* ─────────── Init ─────────── */
 snapshot();
 buildAreas(); buildTicker(); buildCourt(); buildMega(); buildAreaSelect();
-renderVideos(); initVideos();
+// renderVideos(); initVideos(); — sección de video desactivada temporalmente
 document.getElementById("yr").textContent = new Date().getFullYear();
 handleRoute();
 
@@ -427,15 +428,15 @@ function buildAreaSelect(){
   });
 })();
 
-/* ─────────── Login del portal ─────────── */
-document.getElementById("loginForm").addEventListener("submit", function(ev){
+/* ─────────── Login del portal (placeholder; el modal ahora es un aviso de "próximamente habilitado") ─────────── */
+/* document.getElementById("loginForm").addEventListener("submit", function(ev){
   ev.preventDefault();
   var t = CTXT[LANG] || CTXT.es;
   var out = document.getElementById("lgOut");
   var mail = document.getElementById("lgMail").value.trim();
   out.innerHTML = '<p class="calc-note">' + (mail ? t.loginSoon : t.loginErr) + '</p>';
   out.setAttribute("data-shown","true");
-});
+}); */
 
 /* ─────────── Carrusel del hero: marca → fotografías → marca ─────────── */
 (function(){
