@@ -1,0 +1,9 @@
+RewriteEngine On
+
+# HTTPS + www en un solo redirect 301
+RewriteCond %{HTTPS} off [OR]
+RewriteCond %{HTTP_HOST} !^www\. [NC]
+RewriteRule ^ https://www.vexston.com%{REQUEST_URI} [L,R=301]
+
+# Página 404 personalizada
+ErrorDocument 404 /404.html

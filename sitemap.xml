@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://www.vexston.com/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.vexston.com/?lang=es"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.vexston.com/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.vexston.com/?lang=pt"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.vexston.com/"/>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.vexston.com/areas/penal.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.vexston.com/areas/penal.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.vexston.com/areas/penal.html"/>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.vexston.com/areas/civil.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.vexston.com/areas/civil.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.vexston.com/areas/civil.html"/>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.vexston.com/areas/familia.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.vexston.com/areas/familia.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.vexston.com/areas/familia.html"/>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.vexston.com/areas/corporativo.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.vexston.com/areas/corporativo.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.vexston.com/areas/corporativo.html"/>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.vexston.com/areas/laboral.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.vexston.com/areas/laboral.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.vexston.com/areas/laboral.html"/>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.vexston.com/areas/compliance.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.vexston.com/areas/compliance.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.vexston.com/areas/compliance.html"/>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.vexston.com/areas/constitucional.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.vexston.com/areas/constitucional.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.vexston.com/areas/constitucional.html"/>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.vexston.com/areas/inmobiliario.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.vexston.com/areas/inmobiliario.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.vexston.com/areas/inmobiliario.html"/>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.vexston.com/areas/propiedad-intelectual.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.vexston.com/areas/propiedad-intelectual.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.vexston.com/areas/propiedad-intelectual.html"/>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.vexston.com/areas/tributario.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.vexston.com/areas/tributario.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.vexston.com/areas/tributario.html"/>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.vexston.com/areas/administrativo.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.vexston.com/areas/administrativo.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.vexston.com/areas/administrativo.html"/>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.vexston.com/areas/internacional.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.vexston.com/areas/internacional.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.vexston.com/areas/internacional.html"/>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.vexston.com/areas/hidrocarburos.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.vexston.com/areas/hidrocarburos.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.vexston.com/areas/hidrocarburos.html"/>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.vexston.com/areas/ambiental.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.vexston.com/areas/ambiental.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.vexston.com/areas/ambiental.html"/>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.vexston.com/areas/deportivo.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.vexston.com/areas/deportivo.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.vexston.com/areas/deportivo.html"/>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.vexston.com/areas/agrario.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.vexston.com/areas/agrario.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.vexston.com/areas/agrario.html"/>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.vexston.com/areas/tecnologia.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.vexston.com/areas/tecnologia.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.vexston.com/areas/tecnologia.html"/>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.vexston.com/areas/fintech.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.vexston.com/areas/fintech.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.vexston.com/areas/fintech.html"/>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+</urlset>
